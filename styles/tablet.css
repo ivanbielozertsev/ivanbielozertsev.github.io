@@ -1,0 +1,242 @@
+@media screen and (max-width: 1200px) {
+    .section-header-logo {
+        display: none;
+    }
+    
+
+    .header-contacts {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .section-header {
+        padding-top: 34px;
+        margin-bottom: 30px;
+    }
+    
+    .container {
+        padding: 0 60px;
+    }
+
+    .header-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-mini {
+        display: block;
+    }
+
+    .menu-button {
+        display: none;
+    }
+ 
+    .header-navigation {
+        display: flex;
+    }
+
+    .container.header {
+        display: block;
+    }
+    
+    .mobile-nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: var(--clr-white);
+        z-index: 100;
+    }
+      
+    .mobile-nav-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 16px 0;
+    }
+    
+    .mobile-nav-close {
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        cursor: pointer;
+    }
+    
+    .mobile-nav-list {
+        margin: 0;
+        padding: 0;
+        background-color: var(--clr-bg);
+    }
+    
+    .mobile-nav-item {
+        text-align: center;
+        padding: 15px 0;
+        border-bottom: solid 1px var(--clr-white);
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .section-publications {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+}
+    
+@media screen and (max-width: 992px) {
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .header-contacts {
+        justify-content: center;
+    }
+
+    .header-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo-mini {
+        margin-bottom: 15px;
+    }
+
+    .section-publications {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 29px;
+        padding-bottom: 81px;
+    }
+
+    .footer-information {
+        margin-bottom: 29px; 
+    }
+
+    .footer-information-adress {
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .section-publications {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .section-switch-button {
+        margin-bottom: 22px;
+    }
+    
+
+    .header-contacts {
+        justify-content: space-between;
+    }
+
+    .menu-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+        padding: 0;
+        background-color: transparent;
+        cursor: pointer;
+        
+    }
+
+    .header-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-mini {
+        display: none;
+    }
+
+    .logo-mini-mobile {
+        display: block;
+    }
+
+    .header-adress {
+        display: none;
+    }
+
+    .dot-separator-header {
+        display: none;
+    }
+
+    .facebook-logo {
+        display: none;
+    }
+
+    .header-navigation {
+        display: none;
+    }   
+
+    .footer-content {
+        flex-direction: column;
+        padding-bottom: 118px;
+    }
+
+    .footer-information-adress {
+        flex-direction: column;
+    }    
+
+    .footer-information-contacts {
+        flex-direction: column;
+    }
+
+    .dot-separator-footer {
+        display: none;
+    }
+
+    .footer-information-adress-text {
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+
+    .footer-information-adress {
+        margin-bottom: 20px;
+    }
+
+    .facebook-logo-footer {
+        margin-bottom: 20px; 
+        margin-right: 0px;
+
+    }
+
+    .footer-information-contacts-number {
+        margin-bottom: 20px; 
+        margin-right: 0px;
+
+    }
+
+    .footer-information-mail {
+        margin-bottom: 20px; 
+
+    }
+
+    .footer-information-copyright-text {
+        text-align: center;
+    }
+
+    .dot-separator-footer {
+        display: none;
+    }
+
+
+}
